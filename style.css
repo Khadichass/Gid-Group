@@ -126,9 +126,9 @@ body {
 }
 .text__container h3 {
   font-family: "Roboto";
-  font-font-style: normal;
-  font-font-weight: 400;
-  font-font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
   line-height: 33px;
   color: #0e0e0e;
   margin-bottom: 16px;
@@ -138,9 +138,9 @@ body {
   margin-bottom: 42px;
   width: 90%;
   font-family: "Roboto";
-  font-font-style: normal;
-  font-font-weight: 300;
-  font-font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
   line-height: 21px;
   color: #0e0e0e;
 }
