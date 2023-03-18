@@ -5,6 +5,7 @@ $gery-textcolor: #333333;
 $mainbutton-background: rgba(17, 17, 17, 0.6);
 $button-background: #000000;
 $yellow: #faff09;
+$text: #0e0e0e;
 
 @font-face {
   font-family: "RobotoR", sans-serif;
@@ -125,6 +126,66 @@ body {
         left: 50%;
         bottom: 53px;
       }
+    }
+  }
+}
+
+.text {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  background-color: $white-textcolor;
+  margin-bottom: 92px;
+  padding: 37px 91px 20px 108px;
+
+  &__container {
+    margin-right: 20px;
+    h2 {
+      font: {
+        family: "Roboto";
+        style: normal;
+        weight: 400;
+        size: 64px;
+      }
+      line-height: 75px;
+      color: $text;
+    }
+
+    &--line2 {
+      display: flex;
+      gap: 7px;
+      margin-top: 7px;
+    }
+    .square {
+      width: 20px;
+      height: 20px;
+      background-color: $text;
+    }
+
+    h3 {
+      font: {
+        family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+      }
+      line-height: 33px;
+      color: $text;
+      margin-bottom: 16px;
+    }
+
+    p {
+      margin-left: 27px;
+      margin-bottom: 42px;
+      width: 90%;
+      font: {
+        family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+      }
+      line-height: 21px;
+      color: $text;
     }
   }
 }
