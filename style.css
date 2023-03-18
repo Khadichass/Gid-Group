@@ -21,6 +21,78 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin-bottom: 45px;
+}
+.main__header {
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-top: 38px;
+  padding-bottom: 38px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.main__header--open {
+  width: 36px;
+  height: 32px;
+}
+.main__header--call {
+  position: absolute;
+  right: 100px;
+  width: 29px;
+  height: 29px;
+}
+.main__logo {
+  position: relative;
+}
+.main__logo img {
+  position: absolute;
+  top: -52px;
+  left: 45%;
+}
+.main__btnlinks {
+  margin-top: 348px;
+}
+.main__btnlinks h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 80px;
+  color: #f2f2f2;
+  line-height: 94px;
+  text-align: center;
+  margin-bottom: 193px;
+}
+.main__btnlinks--a {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.main__btnlinks a {
+  background-color: rgba(17, 17, 17, 0.6);
+  border: 1px solid #c4c4c4;
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  color: #f2f2f2;
+  line-height: 28px;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.main__btnlinks .firsta {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.main__btnlinks--img {
+  margin-top: 151px;
+  margin-left: 50%;
+  margin-bottom: 53px;
 }
 
 /*# sourceMappingURL=style.css.map */

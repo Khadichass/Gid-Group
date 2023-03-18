@@ -1,5 +1,10 @@
 $header-back: rgba(0, 0, 0, 0.4);
-$button-color: #000000;
+$white-textcolor: #f2f2f2;
+$black-textcolor: #000000;
+$gery-textcolor: #333333;
+$mainbutton-background: rgba(17, 17, 17, 0.6);
+$button-background: #000000;
+$yellow: #faff09;
 
 @font-face {
   font-family: "RobotoR", sans-serif;
@@ -30,4 +35,96 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin-bottom: 45px;
+
+  &__header {
+    background-color: $header-back;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: {
+      top: 38px;
+      bottom: 38px;
+      left: 100px;
+      right: 100px;
+    }
+    &--open {
+      width: 36px;
+      height: 32px;
+    }
+
+    &--call {
+      position: absolute;
+      right: 100px;
+      width: 29px;
+      height: 29px;
+    }
+  }
+
+  &__logo {
+    position: relative;
+
+    img {
+      position: absolute;
+      top: -52px;
+      left: 45%;
+    }
+  }
+
+  &__btnlinks {
+    margin-top: 348px;
+
+    h1 {
+      font: {
+        family: "Roboto";
+        style: normal;
+        weight: 300;
+        size: 80px;
+      }
+      color: $white-textcolor;
+      line-height: 94px;
+      text-align: center;
+      margin-bottom: 193px;
+    }
+
+    &--a {
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+    }
+    a {
+      background-color: $mainbutton-background;
+      border: 1px solid #c4c4c4;
+      text-decoration: none;
+      font: {
+        family: "Roboto";
+        style: normal;
+        weight: 300;
+        size: 24px;
+      }
+      color: $white-textcolor;
+      line-height: 28px;
+      text-align: center;
+      padding: {
+        top: 25px;
+        bottom: 25px;
+        left: 5%;
+        right: 5%;
+      }
+    }
+    .firsta {
+      padding: {
+        left: 10%;
+        right: 10%;
+      }
+    }
+
+    &--img {
+      margin: {
+        top: 151px;
+        left: 50%;
+        bottom: 53px;
+      }
+    }
+  }
 }
