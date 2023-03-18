@@ -1,10 +1,6 @@
 @font-face {
-  font-family: "RobotoR", sans-serif;
+  font-family: "Roboto", sans-serif;
   src: url(./fonts/regular/Roboto-Regular.eot), url(./fonts/regular/Roboto-Regular.ttf), url(./fonts/regular/Roboto-Regular.woff), url(./fonts/regular/Roboto-Regular.woff2);
-}
-@font-face {
-  font-family: "RobotoL", sans-serif;
-  src: url(./fonts/light/Roboto-Light.eot), url(./fonts/light/Roboto-Light.ttf), url(./fonts/light/Roboto-Light.woff), url(./fonts/light/Roboto-Light.woff2);
 }
 * {
   margin: 0;
@@ -143,6 +139,108 @@ body {
   font-font-size: 18px;
   line-height: 21px;
   color: #0e0e0e;
+}
+
+.price h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 56px;
+  color: #000000;
+  margin-bottom: 18px;
+  margin-left: 61px;
+}
+.price__container {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  margin-top: 56px;
+  margin-left: 200px;
+  margin-right: 175px;
+  position: relative;
+}
+.price__container--first h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  color: #000000;
+}
+.price__container--first p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 53px;
+  color: #333333;
+  margin-top: 48px;
+}
+.price__container--first button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #000000;
+  padding: 35px 105px;
+  margin-top: 155px;
+}
+.price__container--bottom {
+  position: absolute;
+  right: 606px;
+  top: 120px;
+}
+.price__container--second {
+  margin-top: 7px;
+  position: relative;
+}
+.price__container--second .geometrical {
+  position: relative;
+}
+.price__container--second .triangle {
+  position: absolute;
+  top: -7px;
+  left: 375px;
+}
+.price__container--second .line2 {
+  position: absolute;
+  left: -76px;
+}
+.price__container--second .bottomtext {
+  margin-top: 34px;
+  margin-left: 77px;
+}
+.price__container--second h4 {
+  margin-bottom: 20px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 147.19%;
+  color: #000000;
+}
+.price__container--second .paragraph {
+  display: flex;
+  gap: 12px;
+}
+.price__container--second .paragraph__square {
+  width: 25px;
+  height: 20px;
+  background-color: #0e0e0e;
+  margin-top: 45px;
+}
+.price__container--second .paragraph p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 147.19%;
+  color: #333333;
+  margin-top: 27px;
 }
 
 /*# sourceMappingURL=style.css.map */
