@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "RobotoR", sans-serif;
+  src: url(./fonts/regular/Roboto-Regular.eot), url(./fonts/regular/Roboto-Regular.ttf), url(./fonts/regular/Roboto-Regular.woff), url(./fonts/regular/Roboto-Regular.woff2);
+}
+@font-face {
+  font-family: "RobotoL", sans-serif;
+  src: url(./fonts/light/Roboto-Light.eot), url(./fonts/light/Roboto-Light.ttf), url(./fonts/light/Roboto-Light.woff), url(./fonts/light/Roboto-Light.woff2);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1920px;
+}
+
+.main {
+  background-image: url(./images/backgroundhead.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/*# sourceMappingURL=style.css.map */
