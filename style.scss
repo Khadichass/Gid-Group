@@ -109,6 +109,11 @@ body {
         right: 5%;
       }
     }
+
+    a:hover {
+      background: $gery-textcolor;
+      border: 1px solid #c4c4c4;
+    }
     .firsta {
       padding: {
         left: 10%;

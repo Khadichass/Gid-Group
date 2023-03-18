@@ -81,6 +81,10 @@ body {
   padding-left: 5%;
   padding-right: 5%;
 }
+.main__btnlinks a:hover {
+  background: #333333;
+  border: 1px solid #c4c4c4;
+}
 .main__btnlinks .firsta {
   padding-left: 10%;
   padding-right: 10%;
