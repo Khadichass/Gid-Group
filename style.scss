@@ -27,6 +27,7 @@ body {
   max-width: 1920px;
 }
 
+// Main section //
 .main {
   background-image: url(./images/backgroundhead.png);
   background-repeat: no-repeat;
@@ -130,7 +131,9 @@ body {
     }
   }
 }
+// Main section //
 
+// Text section //
 .text {
   width: 95%;
   margin: 0 auto;
@@ -190,7 +193,9 @@ body {
     }
   }
 }
+// Text section //
 
+// Price section //
 .price {
   h3 {
     font: {
@@ -316,3 +321,4 @@ body {
     }
   }
 }
+// Price section //
