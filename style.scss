@@ -1,0 +1,15 @@
+$button-color: #000000;
+
+@font-face {
+  font-family: "RobotoR", sans-serif;
+  src: url(./fonts/regular/Roboto-Regular.eot),
+    url(./fonts/regular/Roboto-Regular.ttf),
+    url(./fonts/regular/Roboto-Regular.woff),
+    url(./fonts/regular/Roboto-Regular.woff2);
+}
+
+@font-face {
+  font-family: "RobotoL", sans-serif;
+  src: url(./fonts/light/Roboto-Light.eot), url(./fonts/light/Roboto-Light.ttf),
+    url(./fonts/light/Roboto-Light.woff), url(./fonts/light/Roboto-Light.woff2);
+}
