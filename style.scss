@@ -8,6 +8,7 @@ $mainbutton-background: rgba(17, 17, 17, 0.6);
 $button-background: #000000;
 $yellow: #faff09;
 $text: #0e0e0e;
+$p-text: #4f4f4f;
 
 @font-face {
   font-family: "Roboto", sans-serif;
@@ -323,6 +324,65 @@ body {
 }
 // Price section //
 
-.line3 {
-  margin-top: 49px;
+// Service section //
+.service {
+  h3 {
+    padding-top: 85px;
+    margin-left: 61px;
+    margin-bottom: 18px;
+    font: {
+      family: "Roboto";
+      style: normal;
+      weight: 300;
+      size: 48px;
+    }
+    line-height: 56px;
+    color: $black-textcolor;
+  }
 }
+
+.service1 {
+  display: flex;
+  gap: 0;
+  margin: {
+    top: 52px;
+    left: 86px;
+    right: 86px;
+  }
+
+  .square {
+    display: block;
+    margin: {
+      top: 42px;
+      bottom: 7px;
+    }
+  }
+  h4 {
+    font: {
+      family: "Roboto";
+      style: normal;
+      weight: 500;
+      size: 48px;
+    }
+    line-height: 56px;
+    color: $text;
+    margin-left: 11px;
+  }
+
+  p {
+    font: {
+      family: "Roboto";
+      style: normal;
+      weight: 400;
+      size: 18px;
+    }
+    line-height: 147.19%;
+    color: $p-text;
+    margin: {
+      top: 23px;
+      left: 13px;
+    }
+    width: 70%;
+  }
+}
+// Service section //

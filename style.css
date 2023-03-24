@@ -247,8 +247,49 @@ body {
   margin-top: 27px;
 }
 
-.line3 {
-  margin-top: 49px;
+.service h3 {
+  padding-top: 85px;
+  margin-left: 61px;
+  margin-bottom: 18px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 56px;
+  color: #000000;
+}
+
+.service1 {
+  display: flex;
+  gap: 0;
+  margin-top: 52px;
+  margin-left: 86px;
+  margin-right: 86px;
+}
+.service1 .square {
+  display: block;
+  margin-top: 42px;
+  margin-bottom: 7px;
+}
+.service1 h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  color: #0e0e0e;
+  margin-left: 11px;
+}
+.service1 p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 147.19%;
+  color: #4f4f4f;
+  margin-top: 23px;
+  margin-left: 13px;
+  width: 70%;
 }
 
 /*# sourceMappingURL=style.css.map */
