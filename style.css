@@ -247,6 +247,9 @@ body {
   margin-top: 27px;
 }
 
+.service {
+  margin-bottom: 117px;
+}
 .service h3 {
   padding-top: 85px;
   margin-left: 61px;
@@ -290,6 +293,18 @@ body {
   margin-top: 23px;
   margin-left: 13px;
   width: 70%;
+}
+
+.projects h3 {
+  padding-top: 85px;
+  margin-left: 61px;
+  margin-bottom: 18px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 56px;
+  color: #000000;
 }
 
 /*# sourceMappingURL=style.css.map */

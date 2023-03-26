@@ -339,6 +339,7 @@ body {
     line-height: 56px;
     color: $black-textcolor;
   }
+  margin-bottom: 117px;
 }
 
 .service1 {
@@ -386,3 +387,21 @@ body {
   }
 }
 // Service section //
+
+// Projects section //
+.projects {
+  h3 {
+    padding-top: 85px;
+    margin-left: 61px;
+    margin-bottom: 18px;
+    font: {
+      family: "Roboto";
+      style: normal;
+      weight: 300;
+      size: 48px;
+    }
+    line-height: 56px;
+    color: $black-textcolor;
+  }
+}
+// Projects section //
