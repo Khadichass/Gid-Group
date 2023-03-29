@@ -263,8 +263,9 @@ body {
 }
 
 .service1 {
-  display: flex;
-  gap: 0;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
   margin-top: 52px;
   margin-left: 86px;
   margin-right: 86px;
@@ -295,6 +296,9 @@ body {
   width: 70%;
 }
 
+.projects {
+  position: relative;
+}
 .projects h3 {
   padding-top: 85px;
   margin-left: 61px;
@@ -305,6 +309,46 @@ body {
   font-size: 48px;
   line-height: 56px;
   color: #000000;
+}
+.projects .background {
+  position: absolute;
+  z-index: -1;
+  top: 100px;
+}
+
+.projects1 {
+  margin-top: 6px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.projects1__container h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 33px;
+  color: #000000;
+  margin-top: 18px;
+}
+.projects1__container h5 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  color: #4f4f4f;
+  margin-top: 13px;
+}
+.projects1__container p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+  margin-top: 13px;
+  margin-bottom: 48px;
 }
 
 /*# sourceMappingURL=style.css.map */
